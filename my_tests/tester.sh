@@ -1,8 +1,12 @@
 #!/bin/bash
 
 rm -f output
-mv ex$1/*.cpp ./
-mv ex$1/*.hpp ./
+
+
+#mv ex$1/*.cpp ./           // for directory ex00 ex01....
+#mv ex$1/*.hpp ./
+
+
 mv my_tests/$1/main.cpp ./main.cpp
 `cat my_tests/$1/compil`
 if [ $? -ne 0 ]
