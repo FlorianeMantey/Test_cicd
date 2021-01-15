@@ -17,4 +17,4 @@ jobs:
 
       - name: Task00
         run: |
-          test/tester.sh 00
+          my_tests/tester.sh 00

@@ -1,0 +1,1 @@
+g++ main.cpp -o test00 -Wall -Wextra -Werror
